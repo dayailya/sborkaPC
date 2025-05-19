@@ -165,7 +165,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <h1>Конфигуратор ПК</h1>
 
-<a href="saved_builds.php">Перейти к сохранённым сборкам</a>
+<a href="builds.php">Перейти к сохранённым сборкам</a>
 
 <form method="POST">
     <?php foreach ($componentsByType as $type => $components): ?>
